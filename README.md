@@ -2,6 +2,8 @@
 OpenCore Configuration for Dell Optiplex 7040.
 Should also work with 7050 and 7060 by replacing the ACPI files with the correct ones for Kaby Lake & Coffee Lake.
 
+This is assuming you're using a stock model with just the iGPU, and either a SATA HDD, M.2 SSD or both. If using a dedicated GPU, be sure to add the appropriate tweaks needed.
+
 F2 Settings (before installing):
 - Uncheck "Enable Legacy Option ROMS"
 - Disable Serial Port
