@@ -13,7 +13,7 @@ F2 Settings (before installing):
 - HyperThread control: Enabled (this will only show for Core i7 users)
 - (6700K only) Fan Control Override: Check - this will improve thermals
 
-How to install:
+How to install (This is assuming you have a macOS computer available, whether a real Mac or an existing Hackintosh):
 - Create a macOS install USB.
 - Use Clover Configurator to mount the EFI partition of the USB stick you just made
 - Drag and drop the EFI folder into the root folder of the EFI partition
