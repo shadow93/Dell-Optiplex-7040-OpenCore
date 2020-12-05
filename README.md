@@ -16,6 +16,7 @@ F2 Settings (before installing):
 How to install (This is assuming you have a macOS computer available, whether a real Mac or an existing Hackintosh):
 - Create a macOS install USB.
 - Use Clover Configurator to mount the EFI partition of the USB stick you just made
+- *DO NOT USE CLOVER CONFIGURATOR FOR ANYTHING ELSE, WE ONLY USE IT FOR MOUNTING THE EFI PARTITION!*
 - Drag and drop the EFI folder into the root folder of the EFI partition
 - Press F12 upon seeing dell logo and select your USB stick.
 
@@ -26,5 +27,6 @@ Post-Installation:
 - Reboot and enter F2 menu to clear the boot list from the Boot Sequence menu
 - F12 again and boot to your primary storage.
 
-*DO NOT USE CLOVER CONFIGURATOR FOR ANYTHING ELSE, WE ONLY USE IT FOR MOUNTING THE EFI PARTITION!*
+TO-DO:
+- Fix sleep: It currently can enter sleep but cannot wake from sleep properly.
 
