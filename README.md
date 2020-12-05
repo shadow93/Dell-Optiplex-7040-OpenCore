@@ -29,4 +29,5 @@ Post-Installation:
 
 TO-DO:
 - Fix sleep: It currently can enter sleep but cannot wake from sleep properly.
+- Fix Realtek HD Audio: The HDMI audio from the iGPU works flawlessly, but for those who want to use the headphone jack, I'll get around to fixing the Realtek audio if not using the HDMI audio.
 
